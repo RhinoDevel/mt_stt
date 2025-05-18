@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mt_stt", "mt_stt\mt_stt.vcxproj", "{6750F771-14A7-4D58-8772-63DE037208D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MT BLAS Release|x64 = MT BLAS Release|x64
+		MT BLAS Release|x86 = MT BLAS Release|x86
+		MT CUDA Release|x64 = MT CUDA Release|x64
+		MT CUDA Release|x86 = MT CUDA Release|x86
+		MT SSE and BLAS Release|x64 = MT SSE and BLAS Release|x64
+		MT SSE and BLAS Release|x86 = MT SSE and BLAS Release|x86
+		MT SSE Release|x64 = MT SSE Release|x64
+		MT SSE Release|x86 = MT SSE Release|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Debug|x64.ActiveCfg = Debug|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Debug|x64.Build.0 = Debug|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Debug|x86.ActiveCfg = Debug|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Debug|x86.Build.0 = Debug|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT BLAS Release|x64.ActiveCfg = MT BLAS Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT BLAS Release|x64.Build.0 = MT BLAS Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT BLAS Release|x86.ActiveCfg = MT BLAS Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT BLAS Release|x86.Build.0 = MT BLAS Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT CUDA Release|x64.ActiveCfg = MT CUDA Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT CUDA Release|x64.Build.0 = MT CUDA Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT CUDA Release|x86.ActiveCfg = MT CUDA Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT CUDA Release|x86.Build.0 = MT CUDA Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE and BLAS Release|x64.ActiveCfg = MT SSE and BLAS Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE and BLAS Release|x64.Build.0 = MT SSE and BLAS Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE and BLAS Release|x86.ActiveCfg = MT SSE and BLAS Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE and BLAS Release|x86.Build.0 = MT SSE and BLAS Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE Release|x64.ActiveCfg = MT SSE Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE Release|x64.Build.0 = MT SSE Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE Release|x86.ActiveCfg = MT SSE Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.MT SSE Release|x86.Build.0 = MT SSE Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Release|x64.ActiveCfg = Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Release|x64.Build.0 = Release|x64
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Release|x86.ActiveCfg = Release|Win32
+		{6750F771-14A7-4D58-8772-63DE037208D7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BC0B00A-0BD9-4199-92F4-61A32001C1C5}
+	EndGlobalSection
+EndGlobal
