@@ -9,7 +9,7 @@ WHISPER_LIB_DIRS = -L$(WHISPER_DIR)/build/src
 WHISPER_LIBS = -lwhisper
 WHISPER_INCLUDES = -I$(WHISPER_DIR)/include -I$(WHISPER_DIR)/ggml/include
 
-SRC = $(wildcard *.cpp)
+SRC = $(filter-out whisper.cpp, $(wildcard *.cpp))
 OBJ = $(SRC:.cpp=.o)
 LIBRARY = libmtstt.so
 
