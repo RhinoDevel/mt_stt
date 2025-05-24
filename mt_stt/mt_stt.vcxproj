@@ -387,7 +387,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-cpu.lib;C:\cuda\lib\x64\cublas.lib;C:\cuda\lib\x64\cuda.lib;C:\cuda\lib\x64\cudart.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-cpu.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-cuda\ggml-cuda.lib;C:\cuda\lib\x64\cublas.lib;C:\cuda\lib\x64\cuda.lib;C:\cuda\lib\x64\cudart.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT SSE Release|x64'">
