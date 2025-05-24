@@ -318,13 +318,13 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\x64-debug\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\x64-debug\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\x64-debug\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\x64-debug\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\x64-debug\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\x64-debug\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\x64-debug\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\x64-debug\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -337,7 +337,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -345,7 +345,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT BLAS Release|x64'">
@@ -358,7 +358,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -366,7 +366,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-blas\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml-cpu.lib;C:\\openblas\libopenblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-blas\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-blas\ggml\src\ggml-cpu.lib;C:\\openblas\libopenblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT CUDA Release|x64'">
@@ -379,7 +379,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -387,7 +387,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-cuda\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-cpu.lib;C:\cuda\lib\x64\cublas.lib;C:\cuda\lib\x64\cuda.lib;C:\cuda\lib\x64\cudart.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-cuda\ggml\src\ggml-cpu.lib;C:\cuda\lib\x64\cublas.lib;C:\cuda\lib\x64\cuda.lib;C:\cuda\lib\x64\cudart.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT SSE Release|x64'">
@@ -400,7 +400,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -408,7 +408,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse\ggml\src\ggml-cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT SSE and BLAS Release|x64'">
@@ -421,7 +421,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)whisper.cpp\include;$(SolutionDir)whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)mt_stt\whisper.cpp\include;$(SolutionDir)mt_stt\whisper.cpp\ggml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -429,7 +429,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse-blas\src\whisper.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml-base.lib;$(SolutionDir)whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml-cpu.lib;C:\\openblas\libopenblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse-blas\src\whisper.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml-base.lib;$(SolutionDir)mt_stt\whisper.cpp\out\build\mt-x64-release-static-sse-blas\ggml\src\ggml-cpu.lib;C:\\openblas\libopenblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

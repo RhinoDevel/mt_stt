@@ -42,10 +42,10 @@ where dynamically linked libraries are sufficient, too.
 #### Compile `whisper.lib` and `ggml.lib` as static libraries
 
 Compile the necessary `whisper.lib` and `ggml.lib` libraries via Visual Studio
-and `whisper.cpp/CMakeLists.txt` as static libraries.
+and `mt_stt/whisper.cpp/CMakeLists.txt` as static libraries.
 
-To do that, modify the file `whisper.cpp/CMakePresets.json` which is created by
-Visual Studio:
+To do that, modify the file `mt_stt/whisper.cpp/CMakePresets.json` which is
+created by Visual Studio:
 
 If the binary of `git` is not in your path, modify `"configurePresets"` entry
 with `"name"` `"windows-base"` by adding the following entry to
@@ -67,7 +67,7 @@ Add entry
 }
 ```
 
-to `whisper.cpp/CMakePresets.json`'s `configurePresets` array.
+to `mt_stt/whisper.cpp/CMakePresets.json`'s `configurePresets` array.
 
 #### OpenBLAS build
 
@@ -112,7 +112,7 @@ Additionally add entry
 }
 ```
 
-to `whisper.cpp/CMakePresets.json`'s configurePresets array.
+to `mt_stt/whisper.cpp/CMakePresets.json`'s configurePresets array.
 
 In **mt_stt**, link with these libraries (e.g. from `C:\cuda\lib\`):
 
@@ -148,7 +148,7 @@ Additionally add entry
 }
 ```
 
-to `whisper.cpp/CMakePresets.json`'s configurePresets array.
+to `mt_stt/whisper.cpp/CMakePresets.json`'s configurePresets array.
 
 **and** change the line
 
@@ -160,7 +160,7 @@ to
 
 in the file
 
-`whisper.cpp\ggml\src\ggml-cpu\ggml-cpu-impl.h`
+`mt_stt/whisper.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h`
 
 before the line
 

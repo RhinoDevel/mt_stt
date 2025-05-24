@@ -4,7 +4,7 @@
 CXX = g++
 CXXFLAGS = -Wall -O2 -std=c++17 -fPIC -DNDEBUG
 
-WHISPER_DIR = ../whisper.cpp
+WHISPER_DIR = ./whisper.cpp
 WHISPER_LIB_DIRS = -L$(WHISPER_DIR)/build/src
 WHISPER_LIBS = -lwhisper
 WHISPER_INCLUDES = -I$(WHISPER_DIR)/include -I$(WHISPER_DIR)/ggml/include
