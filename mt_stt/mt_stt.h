@@ -22,13 +22,13 @@
 //
 #ifdef __cplusplus
 
-#include <cstdbool>
+#include <cstddef>
 
 extern "C" {
 
 #else //__cplusplus
 
-#include <stdbool.h>
+#include <stddef.h>
 
 #endif //__cplusplus
 
